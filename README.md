@@ -33,7 +33,4 @@ This is a modern, responsive personal portfolio website built with Next.js and T
 </ul>
 
 ## Live Demo
-You can view the live version of the portfolio here: 
-
-
-I
+You can view the live version of the portfolio here: https://portfolio-using-next-js-tailwind-css-pi.vercel.app/

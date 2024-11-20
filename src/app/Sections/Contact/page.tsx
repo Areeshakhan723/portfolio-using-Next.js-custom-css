@@ -5,7 +5,7 @@ import Buttons from "@/app/Component/Buttons";
 const page = () => {
   return (
     <section className="padding bg-custom-dark-gradient">
-      <div>
+      <div className="max-container">
         <h1 className="capitalize text-3xl md:text-4xl font-bold font-sans text-center text-blue">
           Contact
           <span className="text-white"> Me</span>

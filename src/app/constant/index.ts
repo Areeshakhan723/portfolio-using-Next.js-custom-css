@@ -96,3 +96,28 @@ export const socialMedia = [
     alt: "github logo",
   },
 ];
+
+export const education = [
+  {
+    name: "Diploma",
+    year: "(2023 - 2025)",
+    institute:
+      "Governor Sindh IT Initiative, Diploma in GenAI, Web3, and Metaverse",
+  },
+  { name: "Intermediate", year: "(2022 - 2024)", institute: "Zubaida College" },
+  {
+    name: "Matriculation",
+    year: "(2022 - 2024)",
+    institute: "St. Mary's Convent Girls Higher Secondary School",
+  },
+];
+
+// Skills Data Array
+export const skills = [
+  { name: "Typescript", percentage: 70, maxWidth: "350px" },
+  { name: "CSS", percentage: 85, maxWidth: "400px" },
+  { name: "HTML", percentage: 85, maxWidth: "400px" },
+  { name: "Next.JS", percentage: 35, maxWidth: "150px" },
+  { name: "Tailwind CSS", percentage: 70, maxWidth: "350px" },
+  { name: "User Interface", percentage: 80, maxWidth: "400px" },
+];

@@ -23,7 +23,7 @@ export const services = [
   },
   {
     imgURL: img2,
-    name: "Frontend developor",
+    name: "Frontend development",
   },
   {
     imgURL: img1,

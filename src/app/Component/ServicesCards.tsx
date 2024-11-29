@@ -16,7 +16,7 @@ const ServicesCards = ({
         {/* content layer */}
         <div className="relative z-10 w-full">
           <div className="flex flex-col">
-            <h3 className="text-white text-left text-2xl md:text-xl lg:text-2xl font-sans p p-5">
+            <h3 className="text-white text-left text-2xl md:text-xl lg:text-2xl font-sans p-5">
               {name}
             </h3>
             <div className="h-[2px] w-auto bg-darkergray m-5" />
@@ -24,7 +24,6 @@ const ServicesCards = ({
               src={imgURL}
               alt="Services Cards"
               width={300}
-              // height={307}
               className="object-contain w-full max-w-[300px]  pt-4"
             />
           </div>

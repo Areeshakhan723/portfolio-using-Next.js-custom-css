@@ -23,7 +23,7 @@ const ProjectsCards = ({
           />
         </a>
         <div className="flex justify-start items-start w-full">
-          <h2 className="text-darkblue  text-sm md:text-lg  font-sans font-semibold break-words">
+          <h2 className="text-darkblue text-sm md:text-lg  font-sans font-semibold break-words">
             {name}
           </h2>
         </div>

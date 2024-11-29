@@ -4,7 +4,7 @@ import MobileNav from "./MobileNav";
 const Navbar = () => {
   return (
     <header className="bg-black p-4 w-full">
-      <nav className="">
+      <nav>
         <ul className="text-lightGray flex justify-center items-center gap-6 font-sans max-lg:hidden">
           <li className="hover:text-darkergray">
             <Link href="/">Home</Link>

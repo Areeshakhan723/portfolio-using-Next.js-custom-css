@@ -36,6 +36,11 @@
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
+
+  /* contact inputs */
+  .app__connect-input{
+    @apply text-white w-[500px] max-md:w-[250px] max-sm:w-[230px] h-[30px] bg-transparent border border-darkblue p-5 rounded-2xl placeholder-lightGray
+  }
 }
 
 

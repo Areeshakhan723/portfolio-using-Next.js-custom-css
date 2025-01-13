@@ -3,7 +3,7 @@ This is a modern, responsive personal portfolio website built with Next.js and T
 
 <ul>
   <li>
-    About Me: Learn about my background and interests.
+    About Me: About my background and interests.
   </li>
    <li>
    Projects: A showcase of my best work with descriptions and links.

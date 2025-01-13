@@ -1,23 +1,23 @@
-import "./globals.css";
-import {Open_Sans}  from "next/font/google";
 import { ReactNode } from "react";
-import Navbar from "../app/Component/Navbar"
+import { Open_Sans } from "next/font/google";
+import Navbar from "../app/Component/Navbar";
+import AOSInitializer from "../app/Component/AOSInitializer"; // Import the AOS initializer component
 
 const openSans = Open_Sans({
-  subsets: ['latin'], // Subsets for language support
-  weight: ['400', '700'], // Specify font weights
+  subsets: ['latin'],
+  weight: ['400', '700'],
 });
 
-
-// Define the type for children
 interface RootLayoutProps {
   children: ReactNode;
 }
-export default function RootLayout({ children,}:RootLayoutProps) {
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={openSans.className}>
       <body>
         <Navbar />
+        <AOSInitializer /> {/* Include the AOSInitializer component here */}
         {children}
       </body>
     </html>

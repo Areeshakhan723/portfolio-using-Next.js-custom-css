@@ -7,9 +7,9 @@ import image6 from "./image6.png"
 import image7 from "./image7.png"
 import image8 from "./image8.png"
 import image9 from "./image9.png"
-import profile from "./p2.png";
-import img1 from "./img1.png";
-import img2 from "./img2.png"
+import image10 from "./image10.png"
+import profile from "./p3.webp";
+
 export {
     image1,
     image2,
@@ -20,7 +20,6 @@ export {
     image7,
     image8,
     image9,
+    image10,
     profile,
-    img1,
-    img2,
 }

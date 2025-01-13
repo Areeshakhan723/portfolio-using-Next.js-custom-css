@@ -9,7 +9,7 @@ const MobileNav = () => {
           <AlignJustify className="text-white" />
         </SheetTrigger>
         <SheetContent>
-          <nav className="">
+          <nav className="flex justify-center items-center flex-col gap-7">
             <ul className="text-blue text-lg flex justify-center items-center flex-col gap-6 font-sans mt-20">
               <li className="hover:text-darkblue">
                 <Link href="/">Home</Link>
@@ -32,6 +32,12 @@ const MobileNav = () => {
                 <Link href="/Sections/Contact">Contact</Link>
               </li>
             </ul>
+
+          <div >
+          <a href="mailto:areshakhan845@gmail.com">
+          <button className="text-white bg-blue hover:bg-darkblue px-4 py-2 font-semibold text-lg rounded-full">Hire Me</button>
+          </a>
+        </div>
           </nav>
         </SheetContent>
       </Sheet>

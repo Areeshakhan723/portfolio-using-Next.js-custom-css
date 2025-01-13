@@ -1,11 +1,12 @@
+// app/page.tsx
 import './globals.css';
+import Header from './Sections/Header/page';
+import About from './Sections/About/page';
+import Services from './Sections/Services/page';
+import Contact from './Sections/Contact/page';
+import Projects from './Sections/Project/page';
+import Skills from './Sections/Skills/page';
 
-import Header from "./Sections/Header/page";
-import About from "./Sections/About/page";
-import Services from "./Sections/Services/page";
-import Contact from "./Sections/Contact/page"
-import Projects from "./Sections/Project/page";
-import Skills from "./Sections/Skills/page"
 export default function Home() {
   return (
     <>

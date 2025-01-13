@@ -11,8 +11,8 @@ const ProjectsCards = ({
   href: string;
 }) => {
   return (
-    <div className="mt-16 flex justify-center items-center ">
-      <div className="w-[350px] h-[300px] lg:h-[350px] md:h-[330px] bg-white gap-4 flex p-2 pt-0 justify-center items-center flex-col shadow-md rounded-md translate transition duration-300 ease-in-out hover:scale-110">
+    <div className="mt-16 flex justify-center items-center">
+      <div className="w-[350px] h-[300px] lg:h-[350px] md:h-[330px] bg-white gap-4 p-4 flex pt-0 justify-center items-center flex-col shadow-md rounded-md translate transition duration-300 ease-in-out hover:scale-110">
         <a href={href} target="_blank" rel="noopener noreferrer">
           <Image
             src={imgURL}

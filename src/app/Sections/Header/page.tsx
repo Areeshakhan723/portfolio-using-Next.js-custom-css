@@ -43,7 +43,7 @@ const page = () => {
             </div>
             <a href={resumeURL} target="_blank">
               <button className="flex justify-center items-center flex-row gap-3 px-5 py-2 font-sans font-semibold bg-blue text-white rounded-2xl hover:bg-darkblue transition duration-300 hover:scale-110">
-                Download CV
+                View Resume
                 <ArrowDown />
               </button>
             </a>
